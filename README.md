@@ -1,223 +1,144 @@
-# Awesome-Internal-Talent-Marketplace
-
-## Top Internal Talent Marketplace Platforms Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Internal Mobility, Skills Matching, Gig & Project Marketplaces, Career Pathing & Workforce Agility*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Internal Talent Marketplaces**. These systems match employees to internal roles, gigs, projects, and mentors based on skills and aspirations—helping organizations improve mobility, retention, and workforce agility.
-
-
-
-**Examples** include Gloat, Fuel50, Phenom, Eightfold AI, Workday Opportunity Marketplace, 50skills, PeopleFluent, Oracle Opportunity Marketplace, TechWolf, Cornerstone, Flexa Careers, and SAP Opportunity Marketplace (the category leaders).
-
-
-
-**Open-source emphasis**: Full enterprise internal talent marketplaces are almost entirely commercial. Open options are limited to **skills-matching prototypes**, **open HR/talent modules**, skills ontology tools, and self-built job boards. This section lists the strongest available open resources and is realistic about the gap.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Gloat](https://gloat.com/)**  
-
-  Leading AI-powered internal talent marketplace focused on matching employees to roles, gigs, projects, and mentors for workforce agility.
-
-
-
-- **[Fuel50](https://fuel50.com/)**  
-
-  Career pathing and internal talent marketplace platform emphasizing personalized “Career DNA,” skills, values, and non-linear career moves.
-
-
-
-- **[Phenom / Phenom Talent Marketplace](https://www.phenom.com/)**  
-
-  Talent experience platform including internal mobility and talent marketplace capabilities for matching employees to opportunities.
-
-
-
-- **[Eightfold AI](https://eightfold.ai/)**  
-
-  AI talent intelligence platform with strong skills inference and internal opportunity matching across the talent lifecycle.
-
-
-
-- **[Workday Opportunity Marketplace](https://www.workday.com/)**  
-
-  Internal opportunity and talent marketplace capabilities integrated within the Workday HCM suite.
-
-
-
-- **[50skills](https://50skills.com/)**  
-
-  Skills-based talent and internal mobility solutions helping organizations match people to work and development opportunities.
-
-
-
-- **[PeopleFluent](https://www.peoplefluent.com/)**  
-
-  Talent management suite with internal mobility and career development features for larger organizations.
-
-
-
-- **[Oracle Opportunity Marketplace / Oracle HCM talent features](https://www.oracle.com/)**  
-
-  Internal opportunity and talent marketplace capabilities within Oracle Cloud HCM.
-
-
-
-- **[TechWolf](https://techwolf.ai/)**  
-
-  Skills intelligence platform that powers skills-based matching and can underpin internal talent marketplace use cases.
-
-
-
-- **[Cornerstone / Cornerstone Opportunity Marketplace](https://www.cornerstoneondemand.com/)**  
-
-  Learning and talent platform with opportunity marketplace and internal mobility features linked to skills and learning.
-
-
-
-- **[Flexa Careers](https://flexa.co/)**  
-
-  Platform focused on flexible and progressive workplace opportunities, sometimes used in internal and external talent contexts.
-
-
-
-- **[SAP Opportunity Marketplace / SAP SuccessFactors](https://www.sap.com/)**  
-
-  Internal opportunity and talent marketplace capabilities within the SAP SuccessFactors talent suite.
-
-
-
-## Open-Source GitHub Projects
-
-- **[OpenHR and open talent-matching prototypes](https://github.com/)**  
-
-  Experimental open-source platforms for skill-tag and AI-based talent matching (often focused on external or co-founder matching, adaptable for internal use).
-
-
-
-- **[Skills ontology and taxonomy open projects](https://github.com/)**  
-
-  Open datasets and tools for skills frameworks (e.g., community skills graphs) that can feed matching engines.
-
-
-
-- **[ERPNext / Odoo HR and recruitment modules](https://github.com/frappe/erpnext)**  
-
-  Open ERP HR modules supporting employees, skills, openings, and basic internal job posting workflows.
-
-
-
-- **[Open job board and internal careers portals](https://github.com/)**  
-
-  Self-hosted job board software that organizations adapt for internal-only opportunity listings.
-
-
-
-- **[Vector similarity / embedding matching open libraries](https://github.com/)**  
-
-  Libraries used to build custom skills-to-opportunity matching using embeddings and semantic search.
-
-
-
-- **[Learning and skills open LMS components](https://github.com/)**  
-
-  Open learning platforms that track skills and can be linked to internal opportunity recommendations.
-
-
-
-- **[Employee profile and skills inventory open apps](https://github.com/)**  
-
-  Simple open applications for maintaining employee skills profiles as a foundation for matching.
-
-
-
-- **[Recommendation engine open frameworks](https://github.com/)**  
-
-  General recommendation libraries applied to people-to-role or people-to-project matching.
-
-
-
-- **[Graph-based career path open experiments](https://github.com/)**  
-
-  Research projects modeling career paths and skill adjacencies as graphs for internal mobility insights.
-
-
-
-- **[Self-hosted collaboration tools for gigs/projects](https://github.com/)**  
-
-  Open project and task tools used to run internal gig marketplaces without a full talent platform.
-
-
-
-### Additional Strong Open-Source Options
-
-- Building a lightweight internal board with **open job-board software + skills tags**.
-
-- Using **ERPNext/Odoo HR** for basic internal postings and skills tracking.
-
-- Combining open skills ontologies with commercial marketplaces for better matching transparency.
-
-- Accepting that AI-powered skills inference, enterprise-scale matching, career pathing UX, and adoption analytics still favor commercial platforms (Gloat, Fuel50, Eightfold, Phenom, Workday, Cornerstone, SAP, Oracle, etc.).
-
-- Focusing open-source efforts on skills data ownership, transparent matching logic, and avoiding lock-in for internal mobility data.
-
-
-
-**Frameworks for building custom systems**: Maintain skills profiles in an open or HCM system → publish internal roles/gigs → match with simple rules or embedding similarity → route applications through existing HR workflows. Suitable for smaller organizations or experiments. Most large enterprises adopt commercial internal talent marketplaces for AI matching quality and employee experience.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Internal talent systems process employee personal and career data and must comply with employment and privacy laws. Open-source or self-built solutions require careful access control, bias review of matching logic, and HR policy alignment. This list is not legal or HR advice.
-
-
+# 🌟 Awesome Internal Talent Marketplace 🚀
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Internal Talent Marketplace Banner" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Internal-Talent-Marketplace"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Internal-Talent-Marketplace?style=flat-square" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Internal-Talent-Marketplace/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Internal-Talent-Marketplace?style=flat-square" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Internal-Talent-Marketplace/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Internal-Talent-Marketplace?style=flat-square" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Internal-Talent-Marketplace/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Internal-Talent-Marketplace?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-**Made for talent leaders, HR technologists, and workforce strategists enabling internal mobility.**
+## 💡 Top Internal Talent Marketplace Platforms & Open-Source Ecosystem 💼
 
-Let's keep opportunity matching fair, transparent, and as open as practical.
+Welcome to the ultimate curated list of **SaaS platforms**, **HR tech enterprise software**, and **open-source GitHub repositories** for **Internal Talent Marketplaces (ITM)**, **skills matching engines**, and **workforce agility solutions**.
+
+Internal Talent Marketplaces leverage AI and skills taxonomies to match employees with internal job openings, short-term gigs, cross-functional projects, mentorships, and personalized career pathways. Implementing ITM solutions improves employee retention, unlocks hidden organizational talent, and accelerates workforce transformation.
+
+---
+
+## 📌 Table of Contents
+
+- [📈 Market Overview & Size](#-market-overview--size)
+- [🏢 SaaS & Enterprise Platforms](#-saas--enterprise-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## 📈 Market Overview & Size
+
+> [!NOTE]
+> **Estimated Market Size & Structure**: The global Internal Talent Marketplace and Workforce Agility software market is estimated at **$1.8 Billion – $2.5 Billion**, growing at a CAGR of **~18.5%**. The sector is **moderately fragmented**: mega-HRIS suites (Workday, SAP, Oracle) hold massive enterprise install bases, while specialized pure-play AI vendors (Eightfold AI, Gloat, Phenom, Fuel50) lead advanced skills inference and gig-matching UX.
+
+---
+
+## 🏢 SaaS & Enterprise Platforms
+
+Below is a structured overview of top enterprise SaaS platforms providing internal talent marketplaces, career pathing, and skills intelligence. *Sorted by Company Size / Market Valuation (Descending).*
+
+| Platform 🚀 | Description 📝 | Company Size / Valuation 💰 | Specific Starting Pricing 💲 | Free Forever Tier / Free Trial Limits ⏱️ |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Workday Opportunity Marketplace](https://www.workday.com/)** 🏢 | Comprehensive internal opportunity marketplace integrated within Workday HCM. | **~$47 Billion** (Market Cap) | **~$6.00 / employee / month** (as part of enterprise HCM suite) | **No Free Trial** (Sales demo upon enterprise inquiry) |
+| **[Eightfold AI](https://eightfold.ai/)** 🤖 | AI-powered talent intelligence and skills inference platform for enterprise mobility. | **~$2.10 Billion** (Series E valuation) | **~$7.00 / employee / month** (billed annually for enterprise) | **No Free Trial** (Guided product demo required) |
+| **[Phenom Talent Marketplace](https://www.phenom.com/)** 🔮 | Talent experience platform matching employees to gigs, projects, and career paths. | **~$1.42 Billion** (Series E valuation) | **~$5.50 / employee / month** (enterprise contract base) | **No Free Trial** (Custom demo environment provided on request) |
+| **[Gloat](https://gloat.com/)** 🌐 | Pioneer AI talent marketplace powering gig matching and workforce agility. | **~$1.00 Billion** (Est. Series D valuation) | **~$5.00 / employee / month** (enterprise tier starting rate) | **No Free Trial** (Enterprise demo & ROI assessment required) |
+| **[SAP Opportunity Marketplace](https://www.sap.com/)** 🏛️ | Opportunity marketplace built natively inside SAP SuccessFactors suite. | **~$250+ Billion** (SAP Group Market Cap) | **~$5.00 / employee / month** (SuccessFactors add-on pricing) | **30-Day Free Trial** (SAP PartnerEdge / Demo environment access) |
+| **[Oracle Opportunity Marketplace](https://www.oracle.com/)** ☁️ | Internal mobility and gig matching engine inside Oracle Fusion Cloud HCM. | **~$380+ Billion** (Oracle Corp Market Cap) | **~$4.00 / employee / month** (HCM Cloud module pricing) | **30-Day Free Trial** (Oracle Cloud Free Tier & Guided Demo) |
+| **[Cornerstone Opportunity Marketplace](https://www.cornerstoneondemand.com/)** 📚 | Learning-connected opportunity marketplace linking skill development to gigs. | **~$5.20 Billion** (Private Equity Acquisition) | **~$4.50 / employee / month** (LMS/Talent suite tier) | **No Free Trial** (Custom enterprise demo upon request) |
+| **[Fuel50](https://fuel50.com/)** 🧬 | AI career pathing platform centered on personalized "Career DNA" and internal gigs. | **~$150 Million** (Est. valuation; ~$36M funding) | **~$4.00 / employee / month** (starting tier) | **No Free Trial** (Interactive sandbox access post-demo) |
+| **[TechWolf](https://techwolf.ai/)** 🐺 | AI skills intelligence layer powering skills-based internal matching engines. | **~$120 Million** (Est. valuation; ~$43M funding) | **~$3.50 / employee / month** (API & intelligence layer) | **No Free Trial** (Proof-of-Concept trial available for enterprise clients) |
+| **[50skills](https://50skills.com/)** ⚡ | Talent onboarding and internal mobility workflows for growing organizations. | **~$15 Million** (Est. valuation) | **$199.00 / month** (Starting team plan) | **14-Day Free Trial** (Full access, no credit card required) |
+| **[PeopleFluent](https://www.peoplefluent.com/)** 👥 | Talent management & mobility suite tailored for mid-market and enterprise teams. | **~$100 Million** (LTG Group Division) | **~$3.00 / employee / month** (base talent module) | **No Free Trial** (Personalized product walkthrough required) |
+| **[Flexa Careers](https://flexa.co/)** 🌈 | Platform highlighting flexible work options and internal/external talent matching. | **~$10 Million** (Est. seed stage valuation) | **£150.00 / month** (Employer starting tier) | **7-Day Free Trial** (Company profile setup & job listing preview) |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Full enterprise-grade internal talent marketplaces are predominantly commercial. However, open-source building blocks—such as **HRMS platforms**, **skills rating engines**, **job board engines**, and **workflow automation tools**—can be assembled into powerful internal mobility solutions.
+
+*Sorted by GitHub Star Count (Descending).*
+
+| Project 📦 | Repository & Star Badge ⭐ | Description 📝 |
+| :--- | :--- | :--- |
+| **Odoo** 🟣 | [<img src="https://img.shields.io/github/stars/odoo/odoo?style=social&color=white" alt="Odoo Stars"/>](https://github.com/odoo/odoo/stargazers) | Open-source enterprise management software with comprehensive HR, employee profile, and internal recruitment modules. |
+| **ERPNext** 🟢 | [<img src="https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white" alt="ERPNext Stars"/>](https://github.com/frappe/erpnext/stargazers) | Modern open-source ERP featuring robust HR management, employee skill tagging, and job opening workflows. |
+| **Activepieces** ⚡ | [<img src="https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white" alt="Activepieces Stars"/>](https://github.com/activepieces/activepieces/stargazers) | Open-source no-code business automation tool to connect HR systems with internal gig assignment workflows. |
+| **ILLA Builder** 🛠️ | [<img src="https://img.shields.io/github/stars/illacloud/illa-builder?style=social&color=white" alt="ILLA Builder Stars"/>](https://github.com/illacloud/illa-builder/stargazers) | Low-code tool to rapidly build custom internal talent portals, skill submission forms, and project dashboards. |
+| **Ever Gauzy** 💼 | [<img src="https://img.shields.io/github/stars/ever-co/ever-gauzy?style=social&color=white" alt="Ever Gauzy Stars"/>](https://github.com/ever-co/ever-gauzy/stargazers) | Open-source Business Management & HR platform featuring employee management, time tracking, and task allocation. |
+| **Dolibarr ERP/CRM** 🔵 | [<img src="https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white" alt="Dolibarr Stars"/>](https://github.com/Dolibarr/dolibarr/stargazers) | Open-source ERP/HR suite featuring employee profiles, skills management, and internal task assignments. |
+| **Frappe HR** 🟠 | [<img src="https://img.shields.io/github/stars/frappe/hrms?style=social&color=white" alt="Frappe HR Stars"/>](https://github.com/frappe/hrms/stargazers) | Purpose-built open-source HR and talent management system with performance tracking and skill inventories. |
+| **OrangeHRM** 🍊 | [<img src="https://img.shields.io/github/stars/orangehrm/orangehrm?style=social&color=white" alt="OrangeHRM Stars"/>](https://github.com/orangehrm/orangehrm/stargazers) | Popular open-source HR software suite covering talent management, performance evaluation, and recruitment. |
+| **OpenCATS** 🐱 | [<img src="https://img.shields.io/github/stars/opencats/OpenCATS?style=social&color=white" alt="OpenCATS Stars"/>](https://github.com/opencats/OpenCATS/stargazers) | Dedicated open-source Applicant Tracking System (ATS) customizable for internal job application tracking. |
+| **Openskill.js** 🧮 | [<img src="https://img.shields.io/github/stars/philihp/openskill.js?style=social&color=white" alt="Openskill Stars"/>](https://github.com/philihp/openskill.js/stargazers) | Open-source skill rating and ranking library useful for algorithmically matching talent to projects. |
+
+---
+
+## 🛠️ Framework for Building a Custom Open-Source Talent Marketplace
+
+If you prefer building an internal marketplace using open-source tools:
+
+```
+[Employee Profiles / Skills Tagging (Frappe HR / OrangeHRM)]
+                        │
+                        ▼
+[Internal Opportunity Listing (OpenCATS / ERPNext)]
+                        │
+                        ▼
+[Skill-to-Gig Vector / Algorithmic Matching (Openskill.js)]
+                        │
+                        ▼
+[Automated Notifications & Routing (Activepieces / ILLA Builder)]
+```
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help us keep this ecosystem list up-to-date and comprehensive. 🌟
+
+1. 🍴 **Fork** this repository.
+2. 🌿 Create a feature branch (`git checkout -b feature/add-new-platform`).
+3. 📝 Update `README.md` with accurate details (links, descriptions, pricing/stars).
+4. 📬 Submit a **Pull Request** with a clear explanation of your changes.
+
+---
+
+## ☕ Support & Community
+
+If you find this repository valuable for your HR tech research or talent strategy, please consider supporting the project:
+
+- ⭐ **Star this repository** to increase its visibility on GitHub.
+- 🔄 **Fork & Share** with fellow HR technologists and workforce leaders.
+- 💬 Join our community discussion on [Discord](https://discord.gg/jc4xtF58Ve).
+- 💖 **Sponsor the Maintainer**: Support ongoing open-source curation via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Internal-Talent-Marketplace&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Internal-Talent-Marketplace&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated index** for informational purposes only.
+- Financial metrics (valuations, revenue estimates) and pricing data are gathered from public research and industry disclosures; they may vary over time.
+- Processing employee career and skill data requires compliance with labor regulations and privacy standards (e.g., GDPR). Always perform legal and data governance reviews before deploying talent marketplace solutions.
+
+---
+
+<p align="center">
+  Made with ❤️ for HR technologists, talent leaders, and workforce agility champions.
+</p>
