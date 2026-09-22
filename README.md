@@ -67,9 +67,9 @@ Below is a structured overview of top enterprise SaaS platforms providing intern
 
 Full enterprise-grade internal talent marketplaces are predominantly commercial. However, open-source building blocks—such as **HRMS platforms**, **skills rating engines**, **job board engines**, and **workflow automation tools**—can be assembled into powerful internal mobility solutions.
 
-*Sorted by GitHub Star Count (Descending).*
+*Sorted by GitHub Stars_Count (Descending).*
 
-| Project 📦 | Repository & Star Badge ⭐ | Description 📝 |
+| Project 📦 | Repository & Stars_Badge ⭐ | Description 📝 |
 | :--- | :--- | :--- |
 | **Odoo** 🟣 | [<img src="https://img.shields.io/github/stars/odoo/odoo?style=social&color=white" alt="Odoo Stars"/>](https://github.com/odoo/odoo/stargazers) | Open-source enterprise management software with comprehensive HR, employee profile, and internal recruitment modules. |
 | **ERPNext** 🟢 | [<img src="https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white" alt="ERPNext Stars"/>](https://github.com/frappe/erpnext/stargazers) | Modern open-source ERP featuring robust HR management, employee skill tagging, and job opening workflows. |
